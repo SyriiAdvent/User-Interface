@@ -1,15 +1,19 @@
 *{
     max-width:100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
 
 body {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
+    line-height: 1.2;
 }
 
 /** Navigation bar**/
 
+nav {
+    margin-bottom: 5%;
+}
 .nav-bar{
 	width: 100%;
 	margin: 30px 0;
@@ -27,6 +31,7 @@ body {
 .nav-bar .logo {
     display: inline-block;
     width: 25%;
+    vertical-align: middle;
 }
 
 /** slogan area **/
@@ -37,10 +42,6 @@ header {
     display: inline-box;
 }
 
-header h1 {
-    margin: 0;
-}
-
 header .slogan-container {
     display: inline-block;
     width: 49%;
@@ -48,22 +49,39 @@ header .slogan-container {
     text-align: center;
 }
 
+
+header h1 {
+    margin: 0;
+}
 header img {
     display: inline-block;
-    width: 40%;
+    width: 48%;
     height: 100%;
 }
 
-/* .button-start {
-    display: inline-block;
-    width: 20%;
-    margin: 0 25% 0;
-} */
+.button-start {
+    width: 37%;
+    border: 1px solid black;
+	padding: 5px 7%;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-size: 18px;
+    vertical-align: top;
+    margin-top: 5%;
+}
+
+button:hover{
+	transition-duration: 1s;
+	background-color: black;
+	color: white;
+}
 
 /** Content area 1 **/
 
 .top-content {
     display: inline-block;
+    margin: 3% 1.5%;
 }
 
 .top-content div {
@@ -72,7 +90,7 @@ header img {
 }
 
 .top-content {
-    text-align: justify;
+
 }
 
 .content-top {
@@ -88,22 +106,18 @@ header img {
 
 /** Content area 2 **/
 
-.lower-content {
+.bottom-content {
     display: inline-block;
-    /* padding: 0 10%; */
+    width: 100%;
 }
 
-.lower-content div {
+.bottom-content div {
     display: inline-block;
-    width: 32%;
+    width: 32.5%;
 }
 
-.lower-content {
-    text-align: justify;
-}
-
-div .content-lower .three{
-    margin-right: 0.5%;
+.bottom-content {
+    
 }
 
 address {
