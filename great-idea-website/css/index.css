@@ -34,6 +34,11 @@ body {
 header {
     width: 100%;
     margin: 2% 0;
+    display: inline-box;
+}
+
+header h1 {
+    margin: 0;
 }
 
 header .slogan-container {
@@ -41,36 +46,44 @@ header .slogan-container {
     width: 49%;
     font-size: 80px;
     text-align: center;
-    margin: 12% 5%;
 }
 
 header img {
     display: inline-block;
     width: 40%;
     height: 100%;
-    padding-top: 5%;
 }
 
-.button-start {
+/* .button-start {
     display: inline-block;
     width: 20%;
     margin: 0 25% 0;
-}
+} */
 
 /** Content area 1 **/
 
 .top-content {
     display: inline-block;
-    padding: 0 10%;
+}
+
+.top-content div {
+    display: inline-block;
+    width: 49%;
 }
 
 .top-content {
     text-align: justify;
 }
 
-.top-content div {
-    display: inline-block;
-    width: 49%;
+.content-top {
+    margin-right: 0.5%;
+}
+
+
+/**image breaker **/
+
+.middle-img {
+    width: 100%;
 }
 
 /** Content area 2 **/
@@ -81,14 +94,27 @@ header img {
 }
 
 .lower-content div {
-    text-align: center;
     display: inline-block;
-    width: 30%;
+    width: 32%;
 }
 
 .lower-content {
     text-align: justify;
 }
+
+div .content-lower .three{
+    margin-right: 0.5%;
+}
+
+address {
+    margin-bottom: 2%;
+}
+
+.copyright {
+    text-align: center;
+}
+
+
 /*TRBL*/
 /*TB RL*/
 /*T RL B*/
