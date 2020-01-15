@@ -34,6 +34,10 @@ nav {
     vertical-align: middle;
 }
 
+.nav-bar a:hover {
+    color: aqua;
+}
+
 /** slogan area **/
 
 header {
@@ -71,6 +75,7 @@ header img {
     margin-top: 5%;
 }
 
+/** STRETCH GOAL BUTTON HOVER**/
 button:hover{
 	transition-duration: 1s;
 	background-color: black;
@@ -81,20 +86,13 @@ button:hover{
 
 .top-content {
     display: inline-block;
+    width: 100%;
     margin: 3% 1.5%;
 }
 
 .top-content div {
     display: inline-block;
     width: 49%;
-}
-
-.top-content {
-
-}
-
-.content-top {
-    margin-right: 0.5%;
 }
 
 
@@ -109,6 +107,7 @@ button:hover{
 .bottom-content {
     display: inline-block;
     width: 100%;
+    margin: 3% 1.5%;
 }
 
 .bottom-content div {
