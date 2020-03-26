@@ -1,66 +1,155 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+*{
+    max-width:100%;
+    /* border: 1px solid red; */
+  }
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
 body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    width: 85%;
+    margin: 0 auto;
+    line-height: 1.2;
 }
 
-/* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
+p {
+    font-family: 'Courgette', cursive;
 }
 
-html, body {
+/** Navigation bar**/
+
+nav {
+    margin-bottom: 5%;
+}
+
+.nav-bar{
+	width: 100%;
+    margin: 2% auto;
+    display: inline-block;
+}
+
+.nav-bar a{
+	display: inline-block;
+	width: 12%;
+	margin: 0 auto;
+	text-decoration: none;
+	color: #708090;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0;
+}
+
+.nav-bar a:hover {
+    background-color: #4d4dff;
+    transition: 0.5s;
+    color: aqua;
+}
+
+@keyframes scale-up-box {
+    0% {
+        transform: scaleY(0.4);
+        transform-origin: 0% 100%;
+    }
+    100% {
+        transform: scaleY(1);
+        transform-origin: 0% 100%;
+    }
+}
+
+.nav-bar .logo {
+    display: inline-block;
+    width: 25%;
+    vertical-align: middle;
+}
+
+/** slogan area **/
+
+header {
+    width: 100%;
+    margin: 2% 0;
+    display: inline-box;
+}
+
+header .slogan-container {
+    display: inline-block;
+    width: 49%;
+    font-size: 80px;
+    text-align: center;
+}
+
+
+header h1 {
+    margin: 0;
+}
+header img {
+    display: inline-block;
+    width: 48%;
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+.button-start {
+    width: 37%;
+    border: 1px solid black;
+	padding: 5px 7%;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-size: 18px;
+    vertical-align: top;
+    margin-top: 5%;
 }
 
-/* Your code starts here! */
+/** STRETCH GOAL BUTTON HOVER**/
+button:hover{
+	transition-duration: 1s;
+	background-color: black;
+	color: white;
+}
+
+/** Content area 1 **/
+
+.top-content {
+    display: inline-block;
+    width: 100%;
+    margin: 3% 1.5%;
+}
+
+.top-content div {
+    display: inline-block;
+    width: 49%;
+}
+
+
+/**image breaker **/
+
+.middle-img {
+    width: 100%;
+}
+
+/** Content area 2 **/
+
+.bottom-content {
+    display: inline-block;
+    width: 100%;
+    margin: 3% 1.5%;
+}
+
+.bottom-content div {
+    display: inline-block;
+    width: 32.5%;
+}
+
+.bottom-content {
+    
+}
+
+address {
+    margin-bottom: 2%;
+}
+
+.copyright {
+    text-align: center;
+}
+
+
+/*TRBL*/
+/*TB RL*/
+/*T RL B*/
+/* T R B L*/
